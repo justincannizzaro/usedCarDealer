@@ -1,0 +1,57 @@
+table {
+  border-collapse: collapse;
+  align-self:center;
+  margin: 0 auto;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th {
+    text-align: left;
+    padding-right: 20px;
+}
+
+td {
+    padding-right: 20px;
+}
+
+.headerC {
+  width:1300px;
+  display:block;  
+}
+.footerC {
+  width:1300px;
+  display:block;
+  padding:0px;
+}
+
+.mainDiv {
+    #margin-left: 200px;
+    #margin-right: 200px;
+    width:1000px;
+    display:inline-block;
+    float:left;
+    justify-content: center;
+}
+.nav {
+    width:150px;
+    display:block;
+    float:left;
+}
+
+p {
+    margin-right: 5px;
+}
+
+div.nav input {
+    width: 127px;
+    color: white;
+    background-color: rgb(91, 118, 190);
+    font-weight: 600;
+    white-space: normal;
+    margin-top: 3px;
+    padding:0;
+}
